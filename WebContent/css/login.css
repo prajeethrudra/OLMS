@@ -1,0 +1,183 @@
+@CHARSET "ISO-8859-1";
+*{
+	marign:9999px;
+}
+body{
+background:url("images/wood.png") repeat;
+background-size:100%;
+margin:0px;
+padding:0px;
+}
+
+#board{
+	margin-top:150px;
+	width: 600px;
+	height:700px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fbfbfc;
+	border-radius:0.5%;
+-webkit-box-shadow: 10px 10px 5px 0px rgba(50, 50, 50, 0.45);
+-moz-box-shadow:    10px 10px 5px 0px rgba(50, 50, 50, 0.45);
+box-shadow:         10px 10px 5px 0px rgba(50, 50, 50, 0.45);
+
+}
+.header_literature{
+	width:150px;
+	height:150px;
+	border:5px solid #f5f5f5;
+	border-radius:80%;
+	background: url("images/literature-64.png") no-repeat;
+	background-position: center;
+	margin-top:-80px;position:absolute;
+	background-color:white;
+	margin-left:220px;
+	-webkit-box-shadow: 0px 10px 5px 0px rgba(50, 50, 50, 0.45);
+-moz-box-shadow:    0px 10px 5px 0px rgba(50, 50, 50, 0.45);
+box-shadow:         0px 10px 5px 0px rgba(50, 50, 50, 0.45);
+	
+}
+.header_literature1,.header_literature2,.header_literature3,.header_literature4{
+	width:50px;
+	height:50px;
+	border:5px solid #f5f5f5;
+	border-radius:80%;
+	text-align:center;
+	background-position: center;
+	position:fixed;
+	background-color:white;
+
+	-webkit-box-shadow: 0px 10px 5px 0px rgba(50, 50, 50, 0.45);
+-moz-box-shadow:    0px 10px 5px 0px rgba(50, 50, 50, 0.45);
+box-shadow:         0px 10px 5px 0px rgba(50, 50, 50, 0.45);
+	overflow: hidden;
+}
+.header_literature1{margin-top:-100px;margin-left:20px;}
+.header_literature2{margin-top:-34px;margin-left:20px;}
+.header_literature3{margin-top:33px;margin-left:20px;}
+.header_literature4{margin-top:99px;margin-left:20px;}
+#SPAN_TITLE{
+	font-size: 32px;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	margin-top:14px;
+}
+.header_literature:HOVER{
+	
+
+	background: url("images/literature-64 white.png") no-repeat;
+	background-position: center;
+		background-color:#2c3e50;
+		cursor: pointer;
+}
+.form_elements{
+	margin-top:100px;
+	position:absolute;
+	
+	width:600px;height: auto;
+}
+.title-color{
+	color:#7f8c8d;
+	margin:20px 230px;
+	position: absolute;
+	font-family: 'Carrois Gothic SC', sans-serif;
+}
+#name{
+	margin-left:100px;
+	margin-top:100px;
+	height:40px;font-size: 30px;
+	background-color: #E3E3E3;
+	opacity:0.8;
+	color:#2c3e50;
+	width:400px;
+	padding:10px;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	
+}
+#password{	
+margin-left:100px;
+	height:40px;font-size: 30px;
+	background-color: #E3E3E3;
+	opacity:0.8;
+	color:#2c3e50;
+	width:406px;
+	padding-left:10px;
+	padding-top:16px;
+	}
+
+
+#submit{
+	 width: 420px;  height: 60px;
+	background:#2980b9;
+	margin-top:30px;
+	margin-left:100px;
+	border:1px solid ##2980b9;
+	text-align:center;
+	font-size: 24px;
+	
+}
+#guest{
+	 width: 420px;  height: 60px;
+	background:#16a085;
+	margin-top:30px;
+	margin-left:100px;
+	border:1px solid 16a085 ;
+	text-align:center;
+	font-size: 24px;
+}
+#guest>p{
+	margin-top: 14px;
+}
+#line{
+	margin-top:40px;margin-left:90px;
+	width:440px;height:2px;
+	background-color: black;
+}
+#span_reg{
+	font-size: 20px;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	margin-top: 40px;margin-left: 100px;
+	
+}
+#span_reg >a{font-size: 24px;}
+
+.header_literature1,.header_literature2,.header_literature3,.header_literature4 p{
+  color: black;
+  text-decoration:none;
+  text-align: center;
+  display:block; /* important */
+}
+
+.header_literature1,.header_literature2,.header_literature3,.header_literature4, #SPAN_TITLE{
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;     
+}
+
+
+
+
+.header_literature1:hover,.header_literature2:hover,.header_literature3:hover,.header_literature4:hover{
+   background-color: #18b6e4;
+  width: 110px;
+  border-radius:5%;
+  color:white;
+  border:2px solid white;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-size:18px;
+}
+
+.header_literature1 p:hover,.header_literature2 p:hover,.header_literature3 p:hover,.header_literature4 p:hover{
+  text-decoration: none;
+  color:white;
+}
+
+#SPAN_TITLE{
+  margin-top: 0.5em;   
+}
+
+.header_literature1:hover #SPAN_TITLE,.header_literature2:hover #SPAN_TITLE,.header_literature3:hover #SPAN_TITLE,.header_literature4:hover #SPAN_TITLE{
+margin-top:-20px;
+  color:white;
+}

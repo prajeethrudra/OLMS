@@ -1,0 +1,97 @@
+@CHARSET "ISO-8859-1";
+body{
+	margin:0px;padding:0px;
+	background-color: #E3E3E3;
+}
+.header1{
+	width:100%;
+	height:70px;
+	background-color: #00b190;
+		position:fixed;
+		clear:both;
+		z-index: 999;
+}
+.content{
+	width:100%;
+	height:auto;
+	//background-color: #cc4d4d;
+}
+.leftnav{
+	width:120px;
+	height:920px;
+	background-color: #333433;
+	position:fixed; margin-top:70px;
+	float:left;	clear:both;
+	
+}
+.icons{
+	width:100px;
+	height:100px;
+	background-color: ;
+	margin:10px auto;
+	text-decoration: none;
+}
+#bgimg,#bgimg2,#bgimg3,#bgimg4,#bgimg5{
+	
+	width:50px;height:50px;
+	background-position:center; 
+	margin:18px auto; position: relative;
+}
+.imgcaption{
+	font-family: 'Carrois Gothic SC', sans-serif;
+	margin: -5px 18px;
+	color:#535353;
+	font-size:20px;
+}
+.imgcaption:nth-child(1){	margin: -5px 2px;}
+.icons:hover{
+	cursor: pointer;
+}
+#bgimg{background: url("images/check-mark-11-48.png") no-repeat;}
+#bgimg2{background: url("images/view-details-48.png") no-repeat;}
+#bgimg3{background: url("images/book-stack-48.png") no-repeat;}
+#bgimg4{background: url("images/inbox.png") no-repeat;}
+#bgimg5{background: url("images/book-16-48.png") no-repeat;}
+.maincontent{
+	width:1660px;float:left;
+	height:auto; border:0px solid #000;
+	background-color:transparent;margin-left:190px;margin-top:140px;
+}
+.heading{
+	width:1660px; height:60px;
+	background-color:white;text-align: center;
+	-webkit-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 1);
+-moz-box-shadow:    3px 3px 5px 0px rgba(50, 50, 50, 1);
+box-shadow:         3px 3px 5px 0px rgba(50, 50, 50, 1);
+}
+.subheading{
+	font-family: 'Carrois Gothic SC', sans-serif;
+	font-size:32px;color:#535353;
+}
+.newitem{
+	width:1660px; min-height:400px;height:100%;
+	background-color:white;
+		-webkit-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 1);
+-moz-box-shadow:    3px 3px 5px 0px rgba(50, 50, 50, 1);
+box-shadow:         3px 3px 5px 0px rgba(50, 50, 50, 1);
+}
+	
+.span2 search-query::-webkit-input-placeholder { color: white; }
+
+.book-title{
+	font-family: 'Carrois Gothic SC', sans-serif;
+	font-weight: bolder;margin-top: 10px;
+}
+.cat-header{background-color:white;
+	-webkit-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 1);
+-moz-box-shadow:    3px 3px 5px 0px rgba(50, 50, 50, 1);
+box-shadow:         3px 3px 5px 0px rgba(50, 50, 50, 1);}
+.box{}
+.pagination{border: 1px solid #535353;border-radius:50%;
+font-size: 18px;
+padding-left: 5px;
+padding-right: 5px;
+text-align: center;color:#535353;}
+.pagination:hover{
+	text-decoration: none;background-color:#535353;color:#00b190;
+}
